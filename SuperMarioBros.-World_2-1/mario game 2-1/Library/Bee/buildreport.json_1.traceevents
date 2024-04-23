@@ -1,0 +1,436 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1713902905711705, "dur": 232358, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902905713555, "dur": 58488, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902905772619, "dur": 161365, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902905933999, "dur": 10064, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902911976880, "dur": 401055, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902911977123, "dur": 20517, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902911997643, "dur": 376634, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902912374279, "dur": 3655, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902912379234, "dur": 34, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1713902912034219, "dur":1490, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912035718, "dur":136, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1713902912035888, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1713902912035906, "dur":203, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1713902912036121, "dur":526, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912036647, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315304, "dur":33, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315337, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315353, "dur":62, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315415, "dur":81, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315496, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315497, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315503, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315505, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315510, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315511, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315515, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315516, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315521, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315522, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315526, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315528, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315533, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315547, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912315565, "dur":1244, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1713902912037696, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912037697, "dur":2795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912040493, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713902912040905, "dur":708, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912041614, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1713902912041699, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912042153, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1713902912042238, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912042495, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1713902912042651, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912042795, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912042818, "dur":1007, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912043826, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912043875, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912044159, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912044194, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912044409, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912044450, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912044500, "dur":39206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912083707, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912083808, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912083845, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084076, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084103, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084144, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084176, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084341, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084380, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084438, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084470, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084514, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084663, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084781, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084821, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084895, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912084931, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912085039, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912085075, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912085121, "dur":99176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912184298, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912184470, "dur":1959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912186430, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912186706, "dur":53839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713902912240546, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713902912240704, "dur":74557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912036611, "dur":78, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912036689, "dur":3683, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912040378, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1713902912040379, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912040945, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1713902912040946, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912041212, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1713902912041309, "dur":848, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912042158, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1713902912042243, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912042557, "dur":88629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713902912131188, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912131419, "dur":1252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713902912132672, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912132912, "dur":92514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713902912225428, "dur":1286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912226716, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1713902912226752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713902912226757, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1713902912228255, "dur":87051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912037790, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912037790, "dur":2703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912040494, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1713902912040982, "dur":1185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912042167, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912042256, "dur":436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912042693, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912042717, "dur":1089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912043811, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912043882, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912043958, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912043991, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044150, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044182, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044297, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044330, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044488, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044521, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044568, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044600, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912044770, "dur":91429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912136200, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912136355, "dur":31268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912167624, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912167783, "dur":32993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713902912200778, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912200909, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":3, "ts":1713902912200977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912200988, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":3, "ts":1713902912202427, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1713902912202459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912202464, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1713902912203031, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912203087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912203092, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912205228, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912205259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912205266, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912207291, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912207345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912207352, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912209268, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1713902912209301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912209310, "dur":11941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1713902912221302, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1713902912221351, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912221369, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1713902912222352, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912222385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912222394, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1713902912223173, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1713902912223208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912223242, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1713902912224017, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1713902912224051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912224059, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1713902912224810, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1713902912224842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912224848, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1713902912225689, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1713902912225721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912225727, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1713902912226340, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1713902912226378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912226383, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1713902912226992, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1713902912227051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912227056, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1713902912228214, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1713902912228313, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713902912228379, "dur":86940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912036864, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912036864, "dur":3514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912040378, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1713902912040493, "dur":705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912041199, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1713902912041294, "dur":826, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912042121, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1713902912042220, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912042538, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon.exe" }}
+,{ "pid":12345, "tid":4, "ts":1713902912042594, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912042620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912042954, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon.exe" }}
+,{ "pid":12345, "tid":4, "ts":1713902912047005, "dur":109468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713902912156473, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912156562, "dur":99357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713902912255920, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713902912256063, "dur":59257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912037957, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912037957, "dur":2531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912040491, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1713902912040601, "dur":1476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912042078, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1713902912042178, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912042493, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912042592, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912042733, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912042764, "dur":1044, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912043813, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912043888, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044051, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044088, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044140, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044167, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044277, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044311, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044412, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044448, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044494, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044523, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912044569, "dur":1700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912046270, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912046380, "dur":1368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912047749, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912047857, "dur":52100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912099958, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912100113, "dur":200759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713902912300874, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713902912301000, "dur":14310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912037009, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912037009, "dur":3485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912040494, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1713902912040849, "dur":853, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912041703, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1713902912041767, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912042182, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713902912042265, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912042707, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713902912042741, "dur":1066, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912043811, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713902912043869, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912044017, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713902912044050, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912044101, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713902912044135, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912044178, "dur":154911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713902912199090, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912199249, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1713902912199388, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912199699, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1713902912199771, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912199893, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1713902912201260, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912201299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912201306, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912202149, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912202181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912202188, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912204265, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912204340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912204352, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912205483, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912205520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912205526, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1713902912206457, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1713902912206500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912206514, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1713902912210007, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1713902912210098, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912210156, "dur":17306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1713902912227462, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912227570, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1713902912227616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713902912227622, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1713902912228602, "dur":86694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912037190, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912037190, "dur":3301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912040492, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1713902912041040, "dur":1094, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912042144, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1713902912042248, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912042545, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912042601, "dur":1206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912043810, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912043869, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044043, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044074, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044241, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044281, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044329, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044363, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044414, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044442, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044545, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912044577, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912045076, "dur":33633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912078710, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912078927, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079102, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079149, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079181, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079217, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079304, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079350, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079374, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079411, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079435, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079683, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079732, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079778, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079805, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079845, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912079869, "dur":3111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912082984, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083052, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083195, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083227, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083267, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083296, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083334, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083359, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083408, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083433, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083472, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083502, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912083981, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912084017, "dur":789, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912084809, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912084867, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912084926, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912084961, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912085009, "dur":70737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912155747, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912156092, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912157438, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912157542, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912158660, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912158830, "dur":35662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912194493, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912194600, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912194725, "dur":628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195355, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195447, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195504, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195559, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195601, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195667, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195711, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195772, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195814, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912195871, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196061, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196130, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196171, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196227, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196337, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196419, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196480, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196553, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196611, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196695, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196942, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912196990, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197054, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197132, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197182, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197272, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197321, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197355, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912197404, "dur":117741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713902912315146, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713902912315242, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1713902912315242, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912037367, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912037367, "dur":3128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912040495, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1713902912040619, "dur":937, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912041557, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1713902912041642, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912042110, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1713902912042218, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912042543, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1713902912042612, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912042674, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912042706, "dur":1105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912043813, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912043875, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044099, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044138, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044190, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044219, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044324, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044361, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044479, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044510, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044558, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044593, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912044726, "dur":29579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912074307, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912074616, "dur":1212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912075829, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912076055, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912077176, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912077278, "dur":1045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078324, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078416, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078454, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078502, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078529, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078567, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078592, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078627, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078655, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078777, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078805, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912078987, "dur":71383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912150371, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912150548, "dur":41604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912192153, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912192442, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912193789, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912193907, "dur":1363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195271, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195349, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195426, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195624, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195689, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195729, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195824, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195866, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912195929, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196129, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196196, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196283, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196373, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196536, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196626, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912196682, "dur":46526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/WorkS/Desktop/SuperMarioBros.-World_2-1/VGP123A1_Johnson_Braydon_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713902912243209, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713902912243390, "dur":71907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713902912318130, "dur":1562, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1713902912379472, "dur": 954, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713902912379211, "dur": 1249, "ph": "X", "name": "Write chrome-trace events", "args": {} },
