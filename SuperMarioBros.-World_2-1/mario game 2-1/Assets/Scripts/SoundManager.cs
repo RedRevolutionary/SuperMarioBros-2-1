@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// thiết lập âm thanh 
 public class SoundManager : MonoBehaviour {
     static SoundManager _instance = null;
     public AudioSource sfxSource;

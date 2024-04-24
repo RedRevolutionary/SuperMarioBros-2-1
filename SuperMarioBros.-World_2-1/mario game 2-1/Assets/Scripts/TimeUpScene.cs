@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// màn hình thêm thời gian
 public class TimeUpScene : MonoBehaviour {
     public AudioClip gameOverMusic;
     private float t;

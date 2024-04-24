@@ -28,7 +28,7 @@ public class TitleScene : MonoBehaviour {
     }
 
     /*
-     * Purpose: Restores global game values so the game can be replayed without exiting, also links the buttons on the TitleScreen to the GameManager
+     * Mục đích: Khôi phục các giá trị trò chơi toàn cầu để có thể chơi lại mà không cần thoát, đồng thời liên kết các nút trên Màn hình Tiêu đề với GameManager
      */
     private void resetGame()
     {

@@ -9,16 +9,19 @@ public class UI : MonoBehaviour {
     public Text worldDisplay;
     public Text coinDisplay;
     public Text livesDisplay;
-    public Toggle soundToggle;
-    public Toggle musicToggle;
-    public CanvasGroup pauseMenu;
+    public Toggle soundToggle;// nút chuyển âm thanh
+    public Toggle musicToggle;// nút chuyển nhạc
+    public CanvasGroup pauseMenu; // menu tạm dừng
     // Use this for initialization
-    void Start () {
-        scoreDisplay.text = "Score\n" + GameManager.instance.score.ToString("0000");
-        timeDisplay.text = "Time\n" + GameManager.instance.clock.ToString("000");
+    void Start ()
+    {
+        scoreDisplay.text = "Score\n" + GameManager.instance.score.ToString("0000");// điểm số
+        timeDisplay.text = "Time\n" + GameManager.instance.clock.ToString("000");// thời gian
         worldDisplay.text = "World\n2-1";
         coinDisplay.text = "Coins\n" + GameManager.instance.coins.ToString("00");
         livesDisplay.text = "Lives\n" + GameManager.instance.lives;
+
+        // Theo sự kiến mà thay đổi âm thanh .
         soundToggle.onValueChanged.AddListener(delegate { soundValueChanged(soundToggle); });
         musicToggle.onValueChanged.AddListener(delegate { musicValueChanged(musicToggle); });
 	}

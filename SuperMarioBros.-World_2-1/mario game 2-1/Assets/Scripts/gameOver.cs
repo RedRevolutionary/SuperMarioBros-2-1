@@ -21,17 +21,13 @@ public class gameOver : MonoBehaviour {
             loadScene("TitleScreen");
     }
 
-    /*
-     * Purpose: Routes calls to a global object through a single source
-     */
+   
     private void playMusic(AudioClip music)
     {
         SoundManager.instance.playMusic(music);
     }
 
-    /*
-     * Purpose: Routes calls to a global object through a single source
-     */
+    
     private void loadScene(string scene)
     {
         GameManager.instance.loadScene(scene);
